@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Carrito y pago | Tu Consultora</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/app.js"></script>
+</head>
+
+<body data-p="pago">
+    <main>
+        <section class="hero">
+            <div class="w">
+                <h1>Carrito y pago</h1>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="w">
+                <div id="chk" class="two">
+                    <div class="box">
+                        <h2>Tu carrito</h2>
+                        <div id="items"></div>
+                        <p id="tot" style="text-align:right"></p>
+                    </div>
+                    <form id="pf" class="box">
+                        <h2>Datos y pago</h2><label>Nombre completo<input required></label><label>Correo<input
+                                type="email" required></label><label>Cédula o RUC<input required></label>
+                        <div class="pay"><label><input type="radio" name="m" value="tarjeta"
+                                    checked>Tarjeta</label><label><input type="radio" name="m"
+                                    value="transferencia">Transferencia</label><label><input type="radio" name="m"
+                                    value="billetera">Billetera digital</label></div>
+                        <div id="tj" style="display:grid;gap:13px"><label>Número de tarjeta<input
+                                    placeholder="4242 4242 4242 4242" inputmode="numeric"></label><label>Vence<input
+                                    placeholder="MM/AA"></label></div>
+                        <p class="note">Pasarela simulada: no se procesa ningún cobro real.</p><button class="btn"
+                            id="go">Pagar ahora</button>
+                    </form>
+                </div>
+                <div id="fin" class="box" hidden>
+                    <div class="ok">Pago aprobado (simulado)</div>
+                    <h2 style="margin-top:18px">¡Gracias por tu compra!</h2>
+                    <p>Tu orden es <b id="ord"></b>. Te enviamos el comprobante y el acceso al curso por correo
+                        (ejemplo).</p><a class="btn" href="capacitaciones.html">Seguir viendo cursos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

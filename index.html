@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Inicio | Tu Consultora</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/app.js"></script>
+</head>
+
+<body data-p="inicio">
+    <main>
+        <section class="hero">
+            <div class="w">
+                <h1 data-t>Una cadena de suministro que responde antes de que llegue el problema</h1>
+                <p data-t>Consultoría y capacitación en supply chain para empresas que quieren entregar a tiempo con
+                    menos inventario parado.</p>
+                <div class="row" style="justify-content:flex-start"><a class="btn" href="contacto.html" data-t>Agendar
+                        una consulta</a><a class="btn g" href="capacitaciones.html" data-t>Ver capacitaciones</a></div>
+            </div>
+        </section>
+        <section class="sec alt">
+            <div class="w stats">
+                <div><b>15+</b><span data-t>años de experiencia</span></div>
+                <div><b>120</b><span data-t>proyectos de mejora</span></div>
+                <div><b>30%</b><span data-t>reducción promedio de costos</span></div>
+                <div><b>2.500</b><span data-t>profesionales capacitados</span></div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="w two">
+                <div>
+                    <h2 data-t>Conoce nuestra empresa</h2>
+                    <p class="lead" data-t>Somos un equipo de consultores que ha trabajado en planta, bodega y
+                        transporte. Hablamos el idioma de la operación.</p><a class="btn"
+                        style="background:var(--ac);color:var(--oa)" href="conocenos.html" data-t>Conócenos →</a>
+                </div>
+                <div class="grid" style="grid-template-columns:1fr">
+                    <div class="card">
+                        <h3 data-t>Experiencia en campo</h3>
+                        <p class="mu" data-t>Hemos trabajado dentro de plantas, bodegas y flotas.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-t>Resultados medibles</h3>
+                        <p class="mu" data-t>Cada proyecto parte de indicadores y termina con ellos.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-t>Equipo cercano</h3>
+                        <p class="mu" data-t>Consultores e instructores que acompañan a tu equipo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec alt">
+            <div class="w">
+                <h2 data-t>Qué hacemos con tu operación</h2>
+                <p class="lead" data-t>Cuatro frentes que puedes contratar por separado o combinar en un programa.</p>
+                <div class="svc">
+                    <h3 data-t>Diagnóstico de supply chain</h3>
+                    <p data-t>Medimos dónde se pierde tiempo, dinero e inventario y entregamos un mapa de mejoras
+                        priorizado.</p>
+                </div>
+                <div class="svc">
+                    <h3 data-t>Planificación de demanda y S&amp;OP</h3>
+                    <p data-t>Alineamos ventas, producción y finanzas en un solo plan mensual.</p>
+                </div>
+                <div class="svc">
+                    <h3 data-t>Inventarios y almacenes</h3>
+                    <p data-t>Definimos niveles de stock, rotación y procesos de bodega.</p>
+                </div>
+                <div class="svc">
+                    <h3 data-t>Logística y abastecimiento</h3>
+                    <p data-t>Rediseñamos rutas, proveedores y tiempos de entrega.</p>
+                </div>
+            </div>
+        </section>
+        <section class="sec">
+            <div class="w">
+                <h2 data-t>Cómo trabajamos contigo</h2>
+                <ol class="steps">
+                    <li>
+                        <h3 data-t>Conversamos</h3>
+                        <p data-t>Entendemos tu operación y tus metas.</p>
+                    </li>
+                    <li>
+                        <h3 data-t>Diagnosticamos</h3>
+                        <p data-t>Medimos el estado actual.</p>
+                    </li>
+                    <li>
+                        <h3 data-t>Proponemos</h3>
+                        <p data-t>Priorizamos por impacto.</p>
+                    </li>
+                    <li>
+                        <h3 data-t>Implementamos</h3>
+                        <p data-t>Acompañamos a tu equipo.</p>
+                    </li>
+                    <li>
+                        <h3 data-t>Medimos</h3>
+                        <p data-t>Verificamos resultados.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="sec alt">
+            <div class="w">
+                <div class="row">
+                    <h2 data-t>Próximas capacitaciones</h2><a href="capacitaciones.html" data-t>Ver todas →</a>
+                </div>
+                <div class="grid" id="dest"></div>
+            </div>
+        </section>
+        <section class="sec" id="contacto-home">
+            <div class="w two">
+                <div>
+                    <h2 data-t>Hablemos de tu operación</h2>
+                    <p class="lead" data-t>Cuéntanos qué necesitas y te respondemos en un día hábil.</p>
+                    <div class="box" style="margin-bottom:20px">
+                        <h3 style="margin-top:0" data-t>Datos de contacto</h3>
+                        <p class="mu">correo@tuconsultora.com<br>Guayaquil, Ecuador<br><span data-t>Lunes a viernes,
+                                08:00 a 17:00</span></p><a class="btn sm" href="https://wa.me/593000000000"
+                            style="display:inline-flex;align-items:center;gap:6px"><span data-t>Escribir por
+                                WhatsApp</span></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <form id="cf"><label><span data-t>Nombre</span><input required data-tp
+                                placeholder="Tu nombre"></label><label><span data-t>Correo corporativo</span><input
+                                type="email" required data-tp placeholder="correo@empresa.com"></label><label><span
+                                data-t>Empresa</span><input data-tp
+                                placeholder="Nombre de tu empresa"></label><label><span data-t>Tema de
+                                interés</span><select id="ci">
+                                <option data-t>Diagnóstico de supply chain</option>
+                                <option data-t>Planificación de demanda y S&amp;OP</option>
+                                <option data-t>Inventarios y almacenes</option>
+                                <option data-t>Logística y abastecimiento</option>
+                                <option data-t>Capacitaciones</option>
+                            </select></label><label><span data-t>¿En qué podemos ayudarte?</span><textarea rows="4"
+                                data-tp
+                                placeholder="Cuéntanos brevemente sobre tu requerimiento"></textarea></label><button
+                            class="btn" style="width:100%" data-t>Enviar solicitud</button></form>
+                    <div id="okc" class="ok" hidden data-t>Solicitud enviada. Te responderemos en un día hábil.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
